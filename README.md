@@ -3,6 +3,15 @@
 MVP frontend del proyecto **Biblioteca USM: Descubrimiento de Recursos** (curso Diseño de Interfaces Usuarias).
 Solo frontend: los datos son de demostración y las reservas/préstamos se guardan en el navegador (`localStorage`).
 
+## Integrantes
+
+```bash
+Ricardo Alvear Chávez   - 202373574-4
+Josefina Pino Monsalve  - 202373619-8
+Vicente Silva Ríos      - 2023735140-0
+```
+
+
 ## Cómo ejecutarlo
 
 ```bash
