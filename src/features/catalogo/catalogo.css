@@ -1,0 +1,40 @@
+.buscador-catalogo { display: flex; gap: 14px; align-items: flex-end; flex-wrap: wrap; margin-bottom: 22px; }
+.buscador-catalogo .campo { margin-bottom: 0; min-width: 200px; }
+.buscador-catalogo .grow { flex: 1; min-width: 260px; }
+.buscador-catalogo .btn { height: 44px; }
+.filtro-disp { flex-basis: 100%; }
+
+.resultados-cabecera { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.resultados-cabecera h2 { margin: 0; font-size: 1.15rem; }
+
+.enlace { background: none; border: 0; color: var(--azul); font: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; padding: 0; }
+
+.lista-libros { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.libro-item { display: flex; gap: 16px; align-items: center; }
+.libro-info { flex: 1; min-width: 0; }
+.libro-info h3 { margin-bottom: 2px; font-size: 1.12rem; }
+.libro-info h3 a { text-decoration: none; }
+.libro-info h3 a:hover { text-decoration: underline; }
+.libro-info p { margin-bottom: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.vacio { text-align: center; }
+
+.ficha-cabecera { display: flex; gap: 24px; margin-bottom: 18px; }
+.ficha-cabecera h1 { margin-bottom: 2px; }
+.autor { font-size: 1.1rem; color: var(--muted); }
+.ficha-datos { margin: 12px 0 0; display: grid; gap: 6px; }
+.ficha-datos div { display: grid; grid-template-columns: 90px 1fr; gap: 8px; }
+.ficha-datos dt { color: var(--muted); font-size: .88rem; }
+.ficha-datos dd { margin: 0; }
+
+.campus-filas { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
+.campus-fila { display: grid; grid-template-columns: 220px 1fr auto; gap: 16px; align-items: center; padding: 14px; border: 1px solid var(--borde); border-radius: 10px; background: #fafbfd; }
+.campus-nombre h3 { margin-bottom: 6px; }
+.campus-ubicacion { display: flex; flex-direction: column; gap: 2px; }
+
+@media (max-width: 760px) {
+  .libro-item { flex-wrap: wrap; }
+  .ficha-cabecera { flex-direction: column; }
+  .campus-fila { grid-template-columns: 1fr; }
+  .campus-accion .btn { width: 100%; }
+}
